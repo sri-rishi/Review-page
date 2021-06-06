@@ -6,6 +6,10 @@
     --skyblue: rgb(36, 153, 199);
     --plain-white: rgb(255, 255, 255);
     --light-gray: rgb(176, 182, 182);
+    --btn-text: rgb(53, 148, 185);
+    --btn-back: rgba(198, 227, 240, 0.877);
+    --text-hover: rgb(2, 60, 82);
+    --back-hover: rgb(9, 176, 241);
 }
 
 body {
@@ -92,13 +96,13 @@ i {
     padding: 3px;
     font-family: 'Poppins', sans-serif;
     border-radius: 8px;
-    color:rgb(53, 148, 185);
-    background-color:rgba(198, 227, 240, 0.877);
+    color:var(--btn-text);
+    background-color: var(--btn-back);
 }
 
 #btn-random:hover {
-    color:rgb(2, 60, 82);
-    background-color:rgb(9, 176, 241);
+    color:var(--text-hover);
+    background-color: var(--back-hover);
     border: none;
     outline: none;
 }
